@@ -1,1 +1,50 @@
 /* TODO: Make it awesome */
+body {
+  background-color: rgb(71, 112, 112);  font-family: Verdana, Arial, sans-serif;padding-top: 30px; padding-bottom: 30px; font-size: 1.2em;
+  overflow-x: hidden; 
+  display: inline;
+}
+
+main{
+  height: 80%;
+}
+
+header h1 {
+  font-size: 1.5em;
+  color: bisque;
+}
+
+header ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0px; border: none; font-weight: bold; font-size: 1.4rem; 
+
+padding-top: 10px;
+padding-bottom: 20px;
+}
+
+#items{
+  margin-top: 20px;
+}
+
+span{
+  color: bisque;
+}
+
+h2 {
+  padding-bottom: 20px;
+  color: bisque;
+}
+
+.small {
+  padding-top: 20px;
+  padding-left: 35%;
+  width: 140px; 
+  height: 140px; margin: 5px; 
+}
+
+#cartContents p {
+  padding-left: 35%;
+
+}

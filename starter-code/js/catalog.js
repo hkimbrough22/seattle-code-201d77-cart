@@ -61,6 +61,7 @@ function updateCartPreview() {
       //create img element that points us to itemOrdered within Product.allProducts
       let imgElem = document.createElement('img');
       imgElem.src = product.filePath;
+      imgElem.classList.add("small");
       cartPreviewElem.appendChild(imgElem);
       let pElem = document.createElement('p');
       pElem.textContent = ` x ${numOrdered}`;
